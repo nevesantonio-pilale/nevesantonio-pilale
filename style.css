@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:#172238;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    background-color: #184569;
+    z-index: 1;
+}
+
+.logo {
+    width: 50%;
+    color: white;
+    margin: 1em;
+}
+
+.h1-header {
+    margin-left: 2em;
+}
+
+
+/*nave*/
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a :visited {
+    color: tomato;
+}
+
+.menu {
+    margin-top: 2.5em;
+}
+
+.menu .lista-menu {
+    width: 100%;
+    height: 20px;
+    display: flex;
+}
+
+.menu .lista-menu .lista {
+    width: 140px;
+    font-size: 14pt;
+    line-height: 40px;
+}
+
+.botao {
+    width: 80px;
+    font-size: 14pt;
+    line-height: 40px;
+    height: 54px;
+    margin-left: -20px;
+}
+
+.botao:hover {
+    width: 80px;
+    font-size: 13pt;
+    line-height: 40px;
+    height: 54px;
+}
+
+
+.lista:hover .a-menu:hover {
+    border: 1px solid /*#1db5ad*/ orange;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 12pt;
+}
+
+.a-menu {
+    color: white;
+}
+
+/* submenu */
+.submenu {
+    display: none;
+    background-color: #184569;
+    width: 300px;
+    /*margin-top: 1px;*/
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#curso:hover .submenu {
+    display: block;
+}
+
+.a-submenu {
+    color: white;
+}
+
+.lista-submenu:hover {
+    background-color: #272626ad;
+    padding: 2px;
+}
+
+/* section */
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.fundo {
+    width: 100%;
+    height: 40.5vmax;
+    /*background-image: linear-gradient(to top, #1ca2f0 10%, #551db5);*/
+    background-color: rgba(2, 0, 0, 0.959);
+    position: absolute;
+    margin-top: 4em;
+    opacity: 0.80;
+}
+
+.h1-titulo {
+    margin-top: 5em;
+    text-align: center;
+    color: white;
+    font-size: 25pt;
+}
+
+.p-pagina-principal {
+    width: 50%;
+    margin-left: 20em;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 1px;
+    color: rgb(209, 209, 209);
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    margin-left: 30em;
+    align-items: center;
+    padding-left: 25px;
+    color: white;
+    font-size: 14pt;
+    background-color: /*#048eff*/ orange;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: orangered;
+    color: orange;
+}
+
+span {
+    color: orange;
+}
+
+/* porque nós */
+
+.section2 {
+    width: 100%;
+    height: 110%;
+    background-image: url(../imagens/fundo1.jpg);
+    position: absolute;
+    margin-top: 581px;
+}
+
+.subtitulos {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgba(175, 172, 172, 0.966);
+    margin-top: 3em;
+    margin-left: 20em;
+    border: 1px solid rgba(204, 204, 204, 0.952);
+    padding: 5px;
+}
+
+/* caixas sobre nós */
+.caixas-sobre-nos {
+    display: flex;
+    margin: 80px;
+}
+
+.sobre-nos {
+    margin-left: 50PX;
+    padding-left: 5em;
+}
+
+.caixa-radio {
+    margin-left: 5em;
+    width: 0px;
+    height: 0px;
+    margin-top: 5px;
+    border-radius: 150%;
+    background-color: #ffa500;
+}
+
+label {
+    color: #ffa500;
+}
+
+
+label:hover,input[type = 'radio'], .caixa-radio:hover {
+    cursor: pointer;
+    color: #ffa500;
+}
+
+ 
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    /*margin-left: 5em;*/
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+/* educaçao melhor */
+.educacao-melhor {
+    /*display: none;*/
+    width: 80%;
+    height: 50vh;
+    margin: 5em;
+}
+
+
+.melhor-gestao {
+    display: none;
+    width: 80%;
+    height: 50vh;
+    margin: 5em;
+}
+
+
+.educacao-de-qualidade {
+    display: none;
+    width: 80%;
+    height: 50vh;
+    margin: 5em;
+}
+
+
+.imagem-educacao-melhor img {
+    width: 30%;
+    height: 50vh;
+}
+
+
+
+.informacao {
+    width: 60%;
+    padding: 20px;
+    margin-top: 3em;
+    margin-left: 450px;
+}
+
+/* CURSOS */
+
+.nossos-cursos {
+    /*background-color: #172238;*/
+    width: 100%;
+    margin-top: -65px;
+    
+}
+
+
+.cursos {
+    width: 95%;
+    margin: 30px;
+    display: flex;
+}
+
+.caixa-cursos {
+    background-color: rgb(255, 255, 255);
+    width: 220vw;
+    height: 92vh;
+    margin-left: 1.5rem;
+    margin-top: 250px;
+    border-radius: 5px;
+}
+
+.imagem-de-curso1 img {
+    width: 216px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.informacao-dos-cursos {
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.h4-cursos {
+    padding: 20px;
+}
+
+.subtitulos2 {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(175, 172, 172, 0.966);
+    margin-top: 5em;
+    margin-left: 20em;
+    border: 1px solid rgba(204, 204, 204, 0.952);
+    padding: 10px;
+    position: absolute;
+}
+
+
+/* NOTICIAS */
+/*.area-de-noticias {
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+.conteudo1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #ffa500;
+}
+
+.imagem-programacao-web img {
+    width: 200px;
+    height: 150px;
+}*/

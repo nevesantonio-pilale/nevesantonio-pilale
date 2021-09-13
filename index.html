@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="PT-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title> Instituto Ganaá </title>
+</head>
+<body>
+    
+    <div class="pagina-principal">
+        <header class="header">
+            <div class="logo">
+                <p> Centro de Formação Profissional </p>
+                <h1 class="h1-header"> <span> CANAÁ </span> </h1>
+            </div> <!-- Fim de logo -->
+
+            <nav class="menu">
+                <ul class="lista-menu">
+                    <li class="lista"> <a class="a-menu" href="#"> Página inicial </a> </li>
+                    <li class="lista"> <a class="a-menu" href="#"> Sobre nós </a> </li>
+                    <li class="botao" id="curso"> <a class="a-menu" href="#cursos">  Cursos </a>
+                        <ul class="submenu">
+                            <li class="lista-submenu"> <a href="#" class="a-submenu"> Curso de Saúde </a> </li>
+                            <li class="lista-submenu"> <a href="#" class="a-submenu"> Curso de Petroleo e Gaz</a> </li>
+                            <li class="lista-submenu"> <a href="#" class="a-submenu"> Operador de Máquinas Pesadas </a> </li>
+                            <li class="lista-submenu"> <a href="#" class="a-submenu"> Curso de Informática </a> </li>
+                        </ul>
+                    <li class="lista"> <a class="a-menu" href="#noticias"> Notícias </a> </li>
+                    <li class="lista"> <a class="a-menu" href="#"> Contactos </a> </li>
+                </ul>
+            </nav> <!-- Fim de menu nav -->
+
+        </header> <!-- fIM DE CABEÇALHO -->
+
+        <section class="section">
+            <div class="fundo-principal">
+                <img src="imagens/imagem-de fundo4.jpg" alt="foto de alunos no resinto da escola">
+            </div>
+
+            <div class="fundo">
+                <div class="titulo">
+                    <h1 class="h1-titulo"> Centro de Formação Profissional <span>CANAÁ</span> </h1>
+                    <p class="p-pagina-principal"> Dispomos de um corpo docente tecnicamente preparados para responder os desafios do mercado e oferecemos estagios profissional capaz de lhe lançar no mercado de emprego... </p>
+                    <div class="button">
+                        <a href="#porqueNos"> <button type="button"> Saiba  mais </button> </a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section2">
+                
+                <a name = "porqueNos">
+                    <div class="porque-escolher-nos">
+                        <h2 class="subtitulos"> Porque escolher a nós? </h2>
+                        
+                        <div class="caixas-sobre-nos">
+                            <div class="sobre-nos">
+                                <label for="c-radio1" style="width: 200px; padding: 10px;"> EDUCAÇÃO MELHOR </label>
+                                <div class="caixa-radio">
+                                    <input type="radio" name="selection" id="c-radio1" onclick="mostrarContainer1();" checked>
+                                </div>
+                            </div>
+        
+                            <div class="sobre-nos">
+                                <label for="c-radio2" style="width: 200px; padding: 10px;"> MELHOR GESTÃO </label>
+                                <div class="caixa-radio">
+                                    <input type="radio" name="selection" id="c-radio2" onclick="mostrarContainer2();">
+                                </div>
+                            </div>
+        
+                            <div class="sobre-nos">
+                                <label for="c-radio3" style="width: 200px; padding: 10px;"> EDUCAÇÃO DE QUALIDADE </label>
+                                <div class="caixa-radio">
+                                    <input type="radio" name="selection" id="c-radio3" onclick="mostrarContainer3();">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                        <div class="educacao-melhor" id="educacaoMelhor">
+                            <div class="imagem-educacao-melhor">
+                                <img src="imagens/educaçao-melhor1.jpg" alt="">
+                            </div>
+    
+                            <div class="informacao">
+                                <h1 style="margin-top: 20px; color: rgba(255, 255, 255, 0.863);"> EDUCAÇÃO MELHOR </h1>
+                                <p style="margin-top: 2em; color: rgba(255, 255, 255, 0.863);"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, incidunt itaque. Laboriosam porro, est deleniti nisi ipsa consequatur, eos ab alias consequuntur molestiae suscipit repellendus tempora sequi odio corporis fugiat!</p>
+                            </div>
+                        </div> <!-- fim de educação melhor -->
+    
+                        <div class="melhor-gestao" id="gestaoMelhor">
+                            <div class="imagem-educacao-melhor">
+                                <img src="imagens/gestao.jpg" alt="">
+                            </div>
+    
+                            <div class="informacao">
+                                <h1 style="margin-top: 20px; color: rgba(255, 255, 255, 0.863);"> MELHOR GESTÃO </h1>
+                                <p style="margin-top: 2em; color: rgba(255, 255, 255, 0.863);"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, incidunt itaque. Laboriosam porro, est deleniti nisi ipsa consequatur, eos ab alias consequuntur molestiae suscipit repellendus tempora sequi odio corporis fugiat!</p>
+                            </div>
+                        </div> <!-- fim de educação melhor -->
+    
+                        <div class="educacao-de-qualidade" id="educacaoQualidade">
+                            <div class="imagem-educacao-melhor">
+                                <img src="imagens/educaçao-de-qualidade.jpg" alt="">
+                            </div>
+    
+                            <div class="informacao">
+                                <h1 style="margin-top: 20px; color: rgba(255, 255, 255, 0.863);"> EDUCAÇÃO DE QUALIDADE </h1>
+                                <p style="margin-top: 2em; color: rgba(255, 255, 255, 0.863);"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, incidunt itaque. Laboriosam porro, est deleniti nisi ipsa consequatur, eos ab alias consequuntur molestiae suscipit repellendus tempora sequi odio corporis fugiat!</p>
+                            </div>
+                        </div>
+<!-- CURSOS-->
+                            <div class="nossos-cursos">
+                                <a name="cursos">
+                                    <h2
+                                        class="subtitulos2" style="width: 30%; padding-left: 30px;"> Conheça os nossos Cursos 
+                                    </h2>
+                                </a>
+                                <div class="cursos">
+                                    <div class="caixa-cursos">
+                                        <div class="imagem-de-curso1">
+                                            <img src="imagens/saude.jpg" alt="">
+                                        </div>
+                                        <div class="informacao-dos-cursos">
+                                                <h4 class="h4-cursos"> SAÚDE </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere neque ullam ipsam dolor placeat distinctio sit minus accusantium atque? Nostrum vel omnis sapiente facere incidunt doloribus voluptatum eligendi, alias voluptatibus!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+    
+                                    
+                                    <div class="caixa-cursos">
+                                        <div class="imagem-de-curso1">
+                                            <img src="imagens/petroleo & gaz.jpg" alt="">
+                                        </div>
+                                            
+                                        <div class="informacao-dos-cursos">
+                                            <h4 class="h4-cursos"> PETROLEO & GAZ </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere neque ullam ipsam dolor placeat distinctio sit minus accusantium atque? Nostrum vel omnis sapiente facere incidunt doloribus voluptatum eligendi, alias voluptatibus!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+    
+    
+                                    
+                                    <div class="caixa-cursos">
+                                            <div class="imagem-de-curso1">
+                                                <img src="imagens/maquinas-pesadas.jpg" alt="">
+                                            </div>
+                                            <div class="informacao-dos-cursos">
+                                                <h4 class="h4-cursos"> MÁQUINAS PESADAS </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere neque ullam ipsam dolor placeat distinctio sit minus accusantium atque? Nostrum vel omnis sapiente facere incidunt doloribus voluptatum eligendi, alias voluptatibus!
+                                            </p>
+                                        </div>
+                                    </div>
+                                
+    
+    
+                                
+                                    <div class="caixa-cursos">
+                                        <div class="imagem-de-curso1">
+                                            <img src="imagens/informatica.jpg" alt="">
+                                        </div>
+                                            <div class="informacao-dos-cursos">
+                                                <h4 class="h4-cursos"> INFORMÁTICA </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere neque ullam ipsam dolor placeat distinctio sit minus accusantium atque? Nostrum vel omnis sapiente facere incidunt doloribus voluptatum eligendi, alias voluptatibus!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="caixa-cursos">
+                                        <div class="imagem-de-curso1">
+                                            <img src="imagens/electricidade.jpg" alt="">
+                                        </div>
+                                        <div class="informacao-dos-cursos">
+                                                <h4 class="h4-cursos"> ELECTRICIDADE INDUSTRIAL </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere neque ullam ipsam dolor placeat distinctio sit minus accusantium atque? Nostrum vel omnis sapiente facere incidunt doloribus voluptatum eligendi, alias voluptatibus!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!-- FIM DE CURSOS -->
+
+<!-- INICIO DA AREA DE NOTICIAS -->
+        <!--a name="noticias">
+            <h2 class="subtitulos" style="width: 340px;"> NOVIDADES NO INSTITUTO </h2>
+            <div class="area-de-noticias">
+                <div class="conteudo1">
+                    <div class="imagem-programacao-web">
+                        <img src="imagens/programacao-web.jpg" alt="">
+                    </div>
+                    <p>
+                        Estam abertas novas vagas de curso de informatica avançada com dominio a programação <span> WEB </span> nas sequintes tecnologias:
+                    </p>
+                </div>
+            </div>
+        </a-->
+<!-- FIM DA AREA DE NOTICIAS-->
+
+                </div> <!-- fim de educação melhor -->
+            </section> <!-- fim de secção 2 -->
+        </section> <!-- FIM DE SECTION -->
+        <footer class="footer">
+            Rotape
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quaerat molestias fuga nihil. Aliquid, eos possimus itaque earum similique alias libero, obcaecati minus quos reprehenderit iusto voluptates a, laudantium corrupti.
+        </footer> <!-- FIM DE FOOTER -->
+
+        <script src="arquivo.js"></script>
+    </div>
+</body>
+</html>
